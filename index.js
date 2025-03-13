@@ -30,7 +30,7 @@ async function main() {
     await mongoose.connect(process.env.DB_URL);
 
     app.use('/', (req, res) => {
-        res.send('Server Bhy Latest')
+        res.send('Backend Server Running')
     });
 };
 
